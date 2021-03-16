@@ -1,0 +1,20 @@
+{
+  "name": "nisanov/gi",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Yasha Nisanov",
+      "email": "yasha.nisanov@gmail.com"
+    }
+  ],
+  "require": {
+    "symfony/console": "^5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "HackerRank\\": "./src"
+    }
+  }
+}
