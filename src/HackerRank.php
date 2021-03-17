@@ -15,6 +15,8 @@ abstract class HackerRank extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
+        $output->writeln((new \ReflectionClass($this))->getName());
+
         for ($i = 0; $i < count(static::$inputs); $i++) {
 
             $question = $i + 1;
